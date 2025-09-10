@@ -20,3 +20,11 @@ cart.add(new Movie(
 ));
 
 console.log(cart.items);
+console.log(cart.totalCost());
+console.log(cart.totalCostDiscount(20));
+
+cart.removeItemById(1001)
+
+console.log(cart.items);
+console.log(cart.totalCost());
+console.log(cart.totalCostDiscount(20));
